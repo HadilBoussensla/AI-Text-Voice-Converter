@@ -24,3 +24,61 @@ It uses **gTTS** for TTS, **pydub** for audio playback, **sounddevice** and **so
 git clone https://github.com/your-username/AI_Text_Voice_Converter.git
 cd AI_Text_Voice_Converter
 
+Install dependencies:
+
+pip install -r requirements.txt
+
+Usage
+python app.py
+
+
+Choose mode 1 for Text → Audio
+
+Choose mode 2 for Audio → Text
+
+Project Structure
+📦 AI_Text_Voice_Converter
+ ┣ 📜 app.py             # Main script with TTS & STT
+ ┣ 📜 requirements.txt   # Dependencies
+ ┣ 📜 .gitignore         # Ignored files
+ ┗ 📜 README.md          # Documentation
+
+License
+
+MIT License. Free to use, modify, and distribute with attribution.
+
+Author
+
+Hadil Boussensla
+
+
+---
+
+## **requirements.txt**
+
+
+
+gTTS
+pydub
+SpeechRecognition
+sounddevice
+soundfile
+
+
+> ⚠️ On Windows, install **FFmpeg** and add it to your PATH for `pydub` to work.
+
+---
+
+## **.gitignore**
+
+
+
+pycache/
+*.pyc
+*.pyo
+*.pyd
+*.wav
+*.mp3
+.env
+.DS_Store
+.ipynb_checkpoints/
