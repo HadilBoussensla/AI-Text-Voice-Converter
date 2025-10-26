@@ -20,7 +20,7 @@ It uses **gTTS** for TTS, **pydub** for audio playback, **sounddevice** and **so
 
 ## Installation
 1. Clone the repository:
-```bash
+
 git clone https://github.com/your-username/AI_Text_Voice_Converter.git
 cd AI_Text_Voice_Converter
 
