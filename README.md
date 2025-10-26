@@ -1,84 +1,73 @@
-# 🤖 AI Text & Voice Converter
+🤖 AI Voice & Text Converter
 
-## Description
-This Python project allows users to convert text to speech (TTS) and speech to text (STT). 
-It uses **gTTS** for TTS, **pydub** for audio playback, **sounddevice** and **soundfile** for recording, and **SpeechRecognition** for transcribing audio.
+This project is an interactive Python application that allows users to convert text to speech and speech to text in French.
+It uses gTTS for text-to-audio conversion, PyDub for audio handling and playback, and SpeechRecognition for audio transcription.
+Users can either type a message to hear it spoken or record their voice to get a transcription.
 
-### Features
-- Text → Audio (plays directly without saving)
-- Audio → Text (records and transcribes voice)
-- Interactive command-line interface
-- In-memory audio playback (no temporary files)
+Features
 
-### Tech Stack
-- Python 3.8+
-- gTTS
-- Pydub
-- SoundDevice
-- SoundFile
-- SpeechRecognition
+✅ Text → Audio conversion (plays audio directly without saving to a file)
 
-## Installation
-1. Clone the repository:
+✅ Audio → Text conversion using microphone recording
 
-git clone https://github.com/your-username/AI_Text_Voice_Converter.git
-cd AI_Text_Voice_Converter
+✅ Supports MP3/WAV playback and recording
+
+✅ Simple interactive menu
+
+Requirements
+
+All dependencies are listed in requirements.txt. To install them, run:
+
+pip install -r requirements.txt
+
+Main Packages
+
+gTTS → Convert text to speech
+
+pydub → Audio manipulation and playback
+
+speechrecognition → Convert recorded audio to text
+
+sounddevice → Record audio from microphone
+
+soundfile → Save recorded audio temporarily
+
+How to Run
+
+Clone the repository:
+
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+
 
 Install dependencies:
 
 pip install -r requirements.txt
 
-Usage
+
+Run the app:
+
 python app.py
 
 
-Choose mode 1 for Text → Audio
+Follow the interactive menu to choose:
 
-Choose mode 2 for Audio → Text
+1 → Convert text to audio
+
+2 → Record voice and get transcription
 
 Project Structure
-📦 AI_Text_Voice_Converter
- ┣ 📜 app.py             # Main script with TTS & STT
- ┣ 📜 requirements.txt   # Dependencies
- ┣ 📜 .gitignore         # Ignored files
- ┗ 📜 README.md          # Documentation
+ai-voice-text-converter/
+ ┣ app.py              # Main script
+ ┣ requirements.txt    # Dependencies
+ ┣ .gitignore          # Ignored files
+ ┗ README.md           # Project documentation
 
 License
 
-MIT License. Free to use, modify, and distribute with attribution.
+This project is licensed under the MIT License. You are free to use, modify, and distribute it with proper attribution.
 
 Author
 
-Hadil Boussensla
-
-
----
-
-## **requirements.txt**
-
-
-
-gTTS
-pydub
-SpeechRecognition
-sounddevice
-soundfile
-
-
-> ⚠️ On Windows, install **FFmpeg** and add it to your PATH for `pydub` to work.
-
----
-
-## **.gitignore**
-
-
-
-pycache/
-*.pyc
-*.pyo
-*.pyd
-*.wav
-*.mp3
-.env
-.DS_Store
-.ipynb_checkpoints/
+Developed by Hadil Boussensla 🚀
+Focused on AI, speech processing, and interactive Python applications.
