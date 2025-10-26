@@ -1,0 +1,5 @@
+gTTS
+pydub
+speechrecognition
+sounddevice
+soundfile
