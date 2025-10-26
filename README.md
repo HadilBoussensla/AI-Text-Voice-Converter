@@ -36,7 +36,7 @@ How to Run
 
 Clone the repository:
 
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/HadilBoussensla/AI-Text-Voice-Converter.git
 cd your-repo
 
 
